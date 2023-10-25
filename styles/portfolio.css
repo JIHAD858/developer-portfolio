@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,6 +16,17 @@
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
+    margin-right: 20px;
+}
+
+.contact-primary {
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    width: 160px;
+    height: 64px;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .header {
@@ -100,7 +111,8 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.section-title{
+
+.section-title {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
@@ -153,18 +165,22 @@ main {
     font-size: 16px;
     color: var(--Dark-03, #757575);
 }
-.resume{
+
+.resume {
     margin-top: 130px;
 }
-.resume-content{
+
+.resume-content {
     display: flex;
     gap: 24px;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume .title{
+
+.resume .title {
     color: var(--Dark-02, #474747);
     margin-top: 30px;
     font-size: 30px;
@@ -172,40 +188,50 @@ main {
     margin-bottom: 10px;
 
 }
-.resume .sub-title{
+
+.resume .sub-title {
     color: var(--Dark-03, #757575);
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume .description{
+
+.resume .description {
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
+
 /* contact style */
-.contact .section-title{
+.contact .section-title {
     text-align: left;
 }
-.contact{
+
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contact input[type="text"],[type="email"], textarea{
+
+.contact input[type="text"],
+[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
 }
-input{
+
+input {
     height: 24px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
